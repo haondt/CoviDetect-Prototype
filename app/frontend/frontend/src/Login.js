@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 
 class Login extends Component{
     handleSubmit = (event) => {
-        if (event.target.elements.email.value === "healthcare"){
+        if (event.target.elements.email.value.includes("healthcare")){
             localStorage.setItem('userType', 'healthcare');
         }
         else{

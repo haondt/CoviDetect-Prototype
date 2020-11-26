@@ -1,5 +1,7 @@
 # CoviDetect Prototype
 
+A conceptual user interface to CoviDetect - an AI-powered COVID-19 detection system that analyses your voice for traits similar to those of Coronavirus-positive patients, accessible from a smartphone.
+
 ## Dependencies:
 
 * Docker 

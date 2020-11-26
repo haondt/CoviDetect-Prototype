@@ -1,0 +1,207 @@
+
+/* css for new landing page */
+h1, h2, a, p, input, label {
+  font-family: Roboto;
+}
+
+body {
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+div#title h1 {
+	color: steelblue;
+	font-size: 100px;
+	margin: auto;
+	margin-top: 100px;
+	text-align: center;
+	padding: auto;
+}
+
+iframe.map{
+	width: 100%;
+	height: 100%;
+}
+div.map {
+	position: fixed;
+	width: 100%;
+	top: 100px;
+	bottom: 0;
+}
+
+div#results div {
+	padding-bottom: 40px;
+}
+
+
+div#results p{
+	font-size: 26px;
+}
+
+
+/* Center text boxes */
+div.centerContent {
+	color: black;
+	background-color: whitesmoke;
+	padding:  10px 50px;
+	margin: 50px;
+	border-radius: 30px;
+}
+
+div.centerContent p{
+	font-size: 40px;
+}
+
+div.centerButtonDiv{
+	text-align: center;
+	background-color: white;
+	padding: 0;
+}
+div.centerContent .button{
+	background-color: steelblue;
+	color: white;
+	font-size: 40px;
+	padding: 20px;
+	margin: 0;
+	margin-bottom: 10px;
+	border-radius: 30px;
+	border: none;
+	width: 100%;
+}
+
+/* Test Form */
+
+div.testForm {
+	font-size: 40px;
+	border: none;
+}
+
+div.testForm input[type=radio], div.testForm input[type=checkbox] {
+	border: 0px;
+	height: 30px;
+	width:30px;
+	margin: 10px;
+	margin-left: 50px;
+}
+
+div.testForm input[type=date] {
+	font-size:40px;
+	padding-left: 10px;
+	margin-left: 20px;
+}
+div.testForm select{
+	font-size:30px;
+	padding-left: 10px;
+	margin-left: 20px;
+	width: 500px;
+	background-color: white;
+	border-radius: 15px;
+}
+
+div.testForm input[type=password], input[type=text], input[type=email]{
+	font-size: 40px;
+	background-color: white;
+	border-radius: 15px;
+	margin-left: 20px;
+	padding-left: 10px;
+	border: none;
+	margin-bottom: 10px;
+}
+
+form {
+	margin-top: 30px;
+}
+
+div.testForm textarea {
+	font-size: 30px;
+	width:100%;
+}
+
+
+div#voiceSample {
+	text-align: center;
+}
+
+div#voiceSample img {
+	width: 500px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+
+
+
+/* set up navigation bar */
+
+div#navBar {
+	border-bottom: 3px solid steelblue;
+	margin: 0;
+	text-align: center;
+}
+
+div#navBar ul {
+	list-style-type: none;
+	margin:  0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ffffff; 
+	width: auto;
+	display: inline-block;
+}
+
+div#navBar a {
+	display: block;
+	color:black;
+	text-align: center;
+	padding: 14px 30px;
+	text-decoration: none;
+	font-size: 50px;
+ }
+
+div#navBar li {
+	float: left;
+}
+
+div#navBar a:hover {
+	color:steelblue;
+	font-weight: bold;
+}
+
+div#navBar a.active {
+	color:steelblue;
+	font-weight: bold;
+}
+
+/* Login form */
+
+div#login  input[type=text], div#login input[type=password], div#login input[type=email], select {
+	width: 100%;
+	padding: 12px 30px;
+	margin: 0;
+	display: inline-block;
+	border: none;
+	border-radius: 30px;
+	box-sizing: border-box;
+	background-color: whitesmoke;
+	font-size: 40px;
+}
+
+div#login input[type=submit], input[type=button] {
+	width: 100%;
+	background-color: steelblue;
+	padding: 12px 30px;
+	border-radius: 30px;
+	border-width: 0;
+	box-sizing: border-box;
+	font-size: 35px;
+	color: white;
+}
+
+div#login {
+	width: 500px;
+	margin: auto;
+	margin-top: 200px;
+}
